@@ -1,1 +1,1 @@
-export {Header, Navbar, Home, Footer} from './views'
+export {Header, Home, Footer} from './views'
