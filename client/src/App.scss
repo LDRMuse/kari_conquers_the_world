@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@0;1&family=Pacifico&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
 
 // http://www.brandgradients.com/gold-gradient/
 $gold1: #BF953F;
@@ -8,8 +7,8 @@ $gold3: #AA771C;
 $light1: #FCF6BA;
 $light2: #FBF5B7;
 $pink: #FFBA9B;
-
-
+$black: #000000;
+$white: whitesmoke;
 
 * {
   box-sizing: border-box;
@@ -20,8 +19,8 @@ $pink: #FFBA9B;
 // https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_col-s
 
 .row::after {
-  content: "";
   clear: both;
+  content: "";
   display: table;
 }
 
@@ -31,13 +30,18 @@ $pink: #FFBA9B;
 }
 
 body {
-  color: #666;
+  color: $gold1;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   line-height: 24px;
   overflow-x: hidden;
+}
+
+.h1Header {
+  margin-top: 250px;
+  text-shadow: 2px 2px 4px $black;
 }
 
 a:link {
@@ -53,35 +57,51 @@ html {
 
 .fa-youtube {
   background: transparent;
-  color: black;
+  color: $black;
   margin-right: 10px;
 }
 
 .fa-instagram {
   background: transparent;
-  color: black;
+  color: $black;
   margin-right: 10px;
 
 }
 
 .fa-facebook-f {
   background: transparent;
-  color: black;
+  color: $black;
   margin-right: 10px;
 
 }
 
 .header {
-  background: linear-gradient(to right, $gold1, $light1, $gold2, $light2, $gold3);
-  color: whitesmoke;
+  background: url("https://p.kindpng.com/picc/s/3-38215_brow-bar-vector-eyebrow-png-transparent-png.png")  fixed;
+  // center center no-repeat  fixed
+  // background-size: cover;  color: whitesmoke;
   font-family: 'Lobster Two', cursive;
+  font-size: 30px;
   padding: 15px;
-  padding-bottom: 50px;
+  padding-bottom: 200px;
+  text-align: center;
+  text-shadow: 2px 2px 4px $white;
+}
+
+.headerNav {
+  background: linear-gradient(to right, $gold1, $light1, $gold2, $light2, $gold3);
+}
+
+.kariImage {
+  margin-top: 15px;
+}
+
+.socialMedia {
+  font-size: 40px;
   text-align: center;
 }
 
-.h1Header {
-  margin-top: 100px;
+.mainBody {
+  margin-top: 20px;
 }
 
 .menu ul {
@@ -91,11 +111,11 @@ html {
 }
 
 .menu li {
-  padding: 15px;
-  margin-bottom: 10px;
-  background-color: black;
-  color: #ffffff;
+  background-color: $black;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding: 15px;
 }
 
 .menu li:hover {
@@ -104,20 +124,21 @@ html {
 
 .aside {
   background-color: $pink;
-  padding: 15px;
-  color: black;
-  text-align: center;
-  font-size: 14px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  color: $black;
+  font-size: 14px;
+  padding: 15px;
+  text-align: center;
 }
 
 .footer {
-  background-color: black;
+  background: linear-gradient(to right, $gold1, $light1, $gold2, $light2, $gold3);
   color: $light2;
-  text-align: center;
   font-size: 12px;
   padding: 15px;
+  text-align: center;
 }
+
 
 /* For mobile phones: */
 [class*="col-"] {
