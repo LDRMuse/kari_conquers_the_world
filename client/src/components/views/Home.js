@@ -1,5 +1,6 @@
 import React from 'react'
 import {PhotoGrid} from './photos/PhotoGrid'
+import kari from "/Users/Melissa/Code/dev/kari_conquers_the_world/client/src/images/kari1.jpg";
 
 export const Home = () => {
   return (
@@ -8,7 +9,7 @@ export const Home = () => {
     <div className="row">
       <div className="col-3 col-s-3 menu">
         <ul>
-        <img className='kariImage' src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/69728227_10158453624809179_3486239634361417728_n.jpg?_nc_cat=102&ccb=2&_nc_sid=174925&_nc_ohc=7yfG4y-f044AX-1iFhU&_nc_ht=scontent-ort2-1.xx&oh=02ecb3141455bbbbb9a4490644435c47&oe=5FE482BC" alt="logo" />
+        <img className='kariImage' src={kari} alt="logo" />
           {/* <li>Microblading</li>
           <li>Microshading</li>
           <li>Lips</li>
