@@ -1,4 +1,4 @@
-$black: #000000;
+$black: #000;
 $pink: #FFBA9B;
 $white: whitesmoke;
 
@@ -13,6 +13,7 @@ $white: whitesmoke;
 
 #gallery {
   background-color: $black;
+  padding-bottom: 15px;
 }
 
 img {

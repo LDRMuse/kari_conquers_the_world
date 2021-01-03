@@ -23,7 +23,8 @@ import family1 from "../../../images/family1.jpg";
 import family2 from "../../../images/family2.jpg";
 import family3 from "../../../images/family3.jpg";
 import family4 from "../../../images/family4.jpg";
-import family5 from "../../../images/family5.jpg";
+import family6 from "../../../images/family6.jpg";
+import family7 from "../../../images/family7.jpg";
 
 export const PhotoGrid = () => {
   return (
@@ -62,7 +63,8 @@ export const PhotoGrid = () => {
           <img alt='img' src={family4} />
           <img alt='img' src={family2} />
           <img className="image" alt="logo" src={family3} />
-          <img className="image" alt="logo" src={family5} />
+          <img className="image" alt="logo" src={family6} />
+          <img className="image" alt="logo" src={family7} />
         </div>
       </div>
 
