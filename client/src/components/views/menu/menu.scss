@@ -1,0 +1,60 @@
+$gold1: #BF953F;
+$gold2: #B38728;
+$gold3: #AA771C;
+$light1: #FCF6BA;
+$light2: #FBF5B7;
+$pink: #FFBA9B;
+$black: #000;
+$white: whitesmoke;
+
+.menu-header {
+  background: url("../../../images/monroeBeauty.jpg") center fixed no-repeat;
+  background-color: white;
+  font-family: 'Lobster Two', cursive;
+  font-size: 30px;
+  padding-bottom: 500px;
+  text-align: center;
+  text-shadow: 2px 2px 4px $white;
+}
+
+
+.service-menu-header {
+  color: $black;
+  font-family: 'Lobster Two', cursive;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 2px 2px 4px $white;
+}
+
+.menu-h1Header {
+  margin-top: 255px;
+  text-shadow: 2px 2px 4px $black;
+}
+
+.menu-aside {
+  background-color: $black;
+  color: $pink;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+  text-shadow: none;
+}
+
+#service-menu {
+  background: linear-gradient(to right, $gold1, $light1, $gold2, $light2, $gold3);;
+  padding-bottom: 15px;
+}
+
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-shadow: none;
+}
+
+.menu li {
+  text-align: left;
+  text-shadow: none;
+}
+
