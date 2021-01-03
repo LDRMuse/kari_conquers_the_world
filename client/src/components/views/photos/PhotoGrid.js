@@ -1,9 +1,29 @@
 import React from 'react';
 import './photos.scss';
-import brows1 from "../../../images/brows1.jpg";
-import brows2 from "../../../images/brows2.jpg";
-import brows3 from "../../../images/brows3.jpg";
-import brows4 from "../../../images/brows4.jpg";
+import makeup1 from "../../../images/makeup1.jpg";
+import makeup2 from "../../../images/makeup2.jpg";
+import makeup3 from "../../../images/makeup3.jpg";
+import makeup4 from "../../../images/makeup4.jpg";
+import makeupS1 from "../../../images/makeupS1.jpg";
+import makeupS2 from "../../../images/makeupS2.jpg";
+import makeup6 from "../../../images/makeup6.jpg";
+
+import model1 from "../../../images/model1.jpg";
+import model2 from "../../../images/model2.jpg";
+import model3 from "../../../images/model3.jpg";
+import model5 from "../../../images/model5.jpg";
+import kari2 from "../../../images/kari2.jpg";
+
+import army1 from "../../../images/army1.jpg";
+import army2 from "../../../images/army2.jpg";
+import army3 from "../../../images/army3.jpg";
+import army4 from "../../../images/army4.jpg";
+
+import family1 from "../../../images/family1.jpg";
+import family2 from "../../../images/family2.jpg";
+import family3 from "../../../images/family3.jpg";
+import family4 from "../../../images/family4.jpg";
+import family5 from "../../../images/family5.jpg";
 
 export const PhotoGrid = () => {
   return (
@@ -11,38 +31,38 @@ export const PhotoGrid = () => {
       <h1 className='galleryHeader'>Gallery</h1>
       <div className="row">
 
-        <div className="column">
-          <img className="image" alt="logo" src={brows2} />
-          <img alt='img' src="https://images.unsplash.com/photo-1515688594390-b649af70d282?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=995&q=80" />
-          <img alt='img' src={brows4} />
-          <img alt='img' src={brows1} />
-          <img alt='img' src="https://images.unsplash.com/photo-1503236823255-94609f598e71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" />
-          <img alt='img' src="https://images.unsplash.com/photo-1512207576147-99bc3066b621?ixlib=rb-1.2.1&auto=format&fit=crop&w=696&q=80" />
+        <div className="column makeup">
+          <img className="image" alt="logo" src={makeup1} />
+          <img alt='img' src={makeupS1} />
+          <img alt='img' src={makeup2} />
+          <img alt='img' src={makeup3} />
+          <img alt='img' src={makeupS2} />
+          <img alt='img' src={makeup4} />
+          <img alt='img' src={makeup6} />
         </div>
 
 
-        <div className="column">
-          <img alt='img' src={brows1} />
-          <img alt='img' src="https://images.unsplash.com/photo-1512495967160-4e815a64fba6?ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80" />
-          <img alt='img' src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80" />
-          <img alt='img' src="https://images.unsplash.com/photo-1515688594390-b649af70d282?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=995&q=80" />
-          <img alt='img' src={brows2} />
+        <div className="column model">
+          <img alt='img' src={model1} />
+          <img alt='img' src={model2} />
+          <img alt='img' src={model3} />
+          <img alt='img' src={kari2} />
+          <img alt='img' src={model5} />
         </div>
 
-        <div className="column">
-          <img className="image" alt="logo" src={brows3} />
-          <img alt='img' src="https://images.unsplash.com/photo-1515688594390-b649af70d282?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=995&q=80" />
-          <img alt='img' src={brows2} />
-          <img alt='img' src={brows1} />
-          <img alt='img' src="https://images.unsplash.com/photo-1503236823255-94609f598e71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" />
-          <img alt='img' src="https://images.unsplash.com/photo-1512207576147-99bc3066b621?ixlib=rb-1.2.1&auto=format&fit=crop&w=696&q=80" />
+        <div className="column army">
+          <img className="image" alt="logo" src={army1} />
+          <img alt='img' src={army2} />
+          <img alt='img' src={army3} />
+          <img alt='img' src={army4} />
         </div>
 
-        <div className="column">
-          <img alt='img' src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" />
-          <img alt='img' src="https://images.unsplash.com/photo-1512495967160-4e815a64fba6?ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80" />
-          <img className="image" alt="logo" src={brows3} />
-          <img alt='img' src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80" />
+        <div className="column family">
+          <img alt='img' src={family1} />
+          <img alt='img' src={family4} />
+          <img alt='img' src={family2} />
+          <img className="image" alt="logo" src={family3} />
+          <img className="image" alt="logo" src={family5} />
         </div>
       </div>
 
