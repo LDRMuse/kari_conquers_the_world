@@ -1,42 +1,74 @@
-import React from 'react'
+import React, { Fragment, useEffect } from 'react'
 import './menu.scss';
+import services from '../../../assets/list-of-services.json'
 
 export const Menu = () => {
+
+  const microblading = services[0].map((s) => {
+    const title = s.title
+    const price = s.price
+    const id = s.id
+
+    return <li key={id}>{title}, {price}</li>
+  })
+
+  const permanent = services[1].map((s) => {
+    const title = s.title
+    const price = s.price
+    const id = s.id
+
+    return <li key={id}>{title}, {price}</li>
+  })
+
+  const lash = services[2].map((s) => {
+    const title = s.title
+    const price = s.price
+    const id = s.id
+
+    return <li key={id}>{title}, {price}</li>
+  })
+
+  const other = services[3].map((s) => {
+    const title = s.title
+    const price = s.price
+    const id = s.id
+
+    return <li key={id}>{title}, {price}</li>
+  })
+
+
+
   return (
-    <>
+    <Fragment>
 
       <div className="menu-header">
 
-      <body id='service-menu'>
-        <h1 className='service-menu-header'>Services</h1>
-        <div className="">
-          <div className="row">
-            <div className="col-3 col-s-3 menu">
-              <ul>
-                <li>Hi</li>
-                <li>Hi</li>
-                <li>Hi</li>
-                <li>Hi</li>
-              </ul>
-            </div>
+        <div className='body' id='service-menu'>
+          <h1 className='service-menu-header'>Services</h1>
+          <div className="card">
+          <h3>Microblading Services</h3>
+            <ul className='ulMenu'>
+              {microblading}
+            </ul>
 
-            <div className="col-6 col-s-9">
-            </div>
+            <h3>Permanent Makeup Services</h3>
+            <ul className='ulMenu'>
+              {permanent}
+            </ul>
 
-            <div className="col-3 col-s-12">
-              <div className="menu-aside">
-                <ul>
-                  <li>Hi</li>
-                  <li>Hi</li>
-                  <li>Hi</li>
-                  <li>Hi</li>
-                </ul>
-              </div>
-            </div>
+            <h3>Lash Services</h3>
+            <ul className='ulMenu'>
+              {lash}
+            </ul>
+
+            <h3>Other Services</h3>
+            <ul className='ulMenu'>
+              {other}
+            </ul>
+
           </div>
         </div>
-      </body>
       </div>
-    </>
+    </Fragment>
   )
 }
