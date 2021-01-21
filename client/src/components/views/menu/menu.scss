@@ -17,12 +17,6 @@ $white: whitesmoke;
   text-shadow: 2px 2px 4px $white;
 }
 
-#service-menu {
-  color: $gold1;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  padding-top: 1px;
-}
 
 .service-menu-header {
   color: $black;
@@ -46,9 +40,18 @@ $white: whitesmoke;
   text-shadow: none;
 }
 
+.ulMenu {
+  list-style-type: none;
+}
+
 #service-menu {
   background: linear-gradient(to right, $gold1, $light1, $gold2, $light2, $gold3);;
+  color: $pink !important;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
   padding-bottom: 15px;
+  padding-top: 1px;
+  text-shadow: none !important;
 }
 
 
