@@ -28,7 +28,7 @@ import family7 from "../../../images/family7.jpg";
 
 export const PhotoGrid = () => {
   return (
-    <body id='gallery'>
+    <div id='gallery'>
       <h1 className='galleryHeader'>Kari Conquers the World</h1>
       <div className="row">
 
@@ -68,6 +68,6 @@ export const PhotoGrid = () => {
         </div>
       </div>
 
-    </body>
+    </div>
   )
 }
