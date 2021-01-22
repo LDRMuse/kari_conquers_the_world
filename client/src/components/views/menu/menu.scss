@@ -7,6 +7,7 @@ $pink: #FFBA9B;
 $black: #000;
 $white: whitesmoke;
 
+/* Kari's logo */
 .menu-header {
   background: url("../../../images/monroeBeauty.jpg") center fixed no-repeat;
   background-color: white;
@@ -17,6 +18,10 @@ $white: whitesmoke;
   text-shadow: 2px 2px 4px $white;
 }
 
+#menuBoxx {
+  background-color: black;
+  padding-top: 1px;
+}
 
 .service-menu-header {
   color: $black;
@@ -40,16 +45,65 @@ $white: whitesmoke;
   text-shadow: none;
 }
 
-.ulMenu {
-  list-style-type: none;
+.menuBox {
+  align-items: center;
 }
+
+/* https://codepen.io/equinusocio/pen/OqpBKJ */
+
+/* List */
+.ulMenu {
+  counter-reset: index;
+  // max-width: 300px;
+  // padding: 0;
+}
+
+/* List element */
+li {
+  align-items: center;
+  box-sizing: border-box;
+  counter-increment: index;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  padding-right: 90px;
+}
+
+
+/* Element counter */
+li::before {
+  -webkit-background-clip: text;
+  align-self: flex-start;
+  background-attachment: fixed;
+  background-image: linear-gradient(to bottom, aquamarine, orangered);
+  content: counters(index, ".", decimal-leading-zero);
+  font-size: 1.5rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: bold;
+  min-width: 50px;
+  padding-right: 12px;
+  text-align: right;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* Element separation */
+li + li {
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+
+// .ulMenu {
+//   list-style-type: none;
+// }
+
 
 #service-menu {
   background: linear-gradient(to right, $gold1, $light1, $gold2, $light2, $gold3);;
   color: $pink !important;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
-  padding-bottom: 15px;
+  padding-bottom: 50px;
   padding-top: 1px;
   text-shadow: none !important;
 }

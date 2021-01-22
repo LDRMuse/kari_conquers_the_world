@@ -1,87 +1,119 @@
 [
   [ {
-    "title": "Microblading",
-    "price": "$ 100",
+    "title": "First Session Microblading",
+    "price": "From $250",
     "id": "1"
   },
   {
-    "title": "Microblading",
-    "price": "$ 100",
+    "title": "6 Week Touch Up",
+    "price": "From $150",
     "id": "2"
   },
   {
-    "title": "Microblading",
-    "price": "$ 100",
+    "title": "6-9 Month Color Boost",
+    "price": "From $150",
     "id": "3"
   },
   {
-    "title": "Microblading",
-    "price": "$ 100",
+    "title": "9-12 Month Color Boost",
+    "price": "From $175",
     "id": "4"
-  }],
+  },
+  {
+    "title": "Annual Color Boost",
+    "price": "From $200",
+    "id": "5"
+  },
+  {
+    "title": "Manual Shading Add-on",
+    "price": "From $100",
+    "id": "6"
+  }
+],
 
   [{
-    "title": "Permanent Makeup",
-    "price": "$ 100",
+    "title": "Tattoo'd Brows",
+    "price": "From $250",
     "id": "1"
   },
   {
-    "title": "Permanent Makeup",
-    "price": "$ 100",
+    "title": "Brow Combo",
+    "price": "From $350",
     "id": "2"
   },
   {
-    "title": "Permanent Makeup",
-    "price": "$ 100",
+    "title": "Tattoo'd Lip Liner",
+    "price": "From $200",
     "id": "3"
   },
   {
-    "title": "Permanent Makeup",
-    "price": "$ 100",
+    "title": "Tattoo'd Lip Blush",
+    "price": "From $350",
     "id": "4"
-  }],
+  },
+  {
+    "title": "Tattoo'd Lash Enhancement",
+    "price": "From $250",
+    "id": "5"
+  },
+  {
+    "title": "Lower Lash Enhancement Add-on",
+    "price": "From $150",
+    "id": "6"
+  },
+  {
+    "title": "Tattoo'd Eyeliner",
+    "price": "From $250",
+    "id": "7"
+  },
+  {
+    "title": "Eyeliner Wedge/Wing Add-on",
+    "price": "From $100",
+    "id": "8"
+  }
+],
   [
     {
-      "title": "Lash",
-      "price": "$ 100",
+      "title": "Classic Lash Set",
+      "price": "From $150",
       "id": "1"
     },
     {
-      "title": "Lash",
-      "price": "$ 100",
+      "title": "Partial Lash Set",
+      "price": "From $100",
       "id": "2"
     },
     {
-      "title": "Lash",
-      "price": "$ 100",
+      "title": "Volume Lash Set",
+      "price": "From $225",
       "id": "3"
-    },
-    {
-      "title": "Lash",
-      "price": "$ 100",
-      "id": "4"
     }
   ],
   [
     {
-      "title": "Other",
-      "price": "$ 100",
+      "title": "Brow Wax",
+      "price": "From 25",
       "id": "1"
     },
     {
-      "title": "Other",
-      "price": "$ 100",
+      "title": "Brow Wax + Tint",
+      "price": "From 35",
       "id": "2"
     },
     {
-      "title": "Other",
-      "price": "$ 100",
+      "title": "Brow Henna",
+      "price": "From 45",
       "id": "3"
     },
     {
-      "title": "Other",
-      "price": "$ 100",
+      "title": "Tattoo's Freckles",
+      "price": "From 65",
       "id": "4"
+    },
+    {
+      "title": "Tattoo's Beauty Mark",
+      "price": "From 40",
+      "id": "5"
     }
   ]
 ]

@@ -40,32 +40,35 @@ export const Menu = () => {
 
   return (
     <Fragment>
-
       <div className="menu-header">
 
         <div className='body' id='service-menu'>
           <h1 className='service-menu-header'>Services</h1>
-          <div className="card">
-          <h3>Microblading Services</h3>
-            <ul className='ulMenu'>
-              {microblading}
-            </ul>
+          <div id="menuBoxx" className="menuBox">
+            <div className='column1'>
+              <ul className='ulMenu'>
+                <h3>Microblading Services</h3>
+                {microblading}
+              </ul>
 
-            <h3>Permanent Makeup Services</h3>
-            <ul className='ulMenu'>
-              {permanent}
-            </ul>
+              <ul className='ulMenu'>
+                <h3>Permanent Makeup Services</h3>
+                {permanent}
+              </ul>
+            </div>
 
-            <h3>Lash Services</h3>
-            <ul className='ulMenu'>
-              {lash}
-            </ul>
+            <div className="column2">
+              <ul className='ulMenu'>
+                <h3>Lash Services</h3>
+                {lash}
+              </ul>
 
-            <h3>Other Services</h3>
-            <ul className='ulMenu'>
-              {other}
-            </ul>
+              <ul className='ulMenu'>
+                <h3>Other Services</h3>
+                {other}
+              </ul>
 
+            </div>
           </div>
         </div>
       </div>
