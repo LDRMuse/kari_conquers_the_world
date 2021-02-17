@@ -19,7 +19,7 @@ export const Home = () => {
           </div>
 
           <div className="col-6 col-s-9">
-            <h1 className='h1Class'>Meet Kari</h1>
+            <h1 className='homeH1'>Meet Kari</h1>
             <section>
               <p className='p'>Licensed Cosmetologist <span role="img" aria-label="sheep">💋 </span></p>
               <p className='p'>Licensed Cosmetic Tattoo Artist <span role="img" aria-label="sheep">🖋 </span></p>
