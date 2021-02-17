@@ -9,7 +9,7 @@ export const Menu = () => {
     const price = s.price
     const id = s.id
 
-    return <li key={id}>{title}, {price}</li>
+    return <li key={id}>{title} - {price}</li>
   })
 
   const permanent = services[1].map((s) => {
@@ -17,7 +17,7 @@ export const Menu = () => {
     const price = s.price
     const id = s.id
 
-    return <li key={id}>{title}, {price}</li>
+    return <li key={id}>{title} - {price}</li>
   })
 
   const lash = services[2].map((s) => {
@@ -25,7 +25,7 @@ export const Menu = () => {
     const price = s.price
     const id = s.id
 
-    return <li key={id}>{title}, {price}</li>
+    return <li key={id}>{title} - {price}</li>
   })
 
   const other = services[3].map((s) => {
@@ -33,7 +33,7 @@ export const Menu = () => {
     const price = s.price
     const id = s.id
 
-    return <li key={id}>{title}, {price}</li>
+    return <li key={id}>{title} - {price}</li>
   })
 
 
@@ -47,24 +47,24 @@ export const Menu = () => {
           <div id="menuBoxx" className="menuBox">
             <div className='column1'>
               <ul className='ulMenu'>
-                <h3>Microblading Services</h3>
+                <h1 className='h1Class'>Microblading Services</h1>
                 {microblading}
               </ul>
 
               <ul className='ulMenu'>
-                <h3>Permanent Makeup Services</h3>
+                <h1 className='h1Class'>Permanent Makeup Services</h1>
                 {permanent}
               </ul>
             </div>
 
             <div className="column2">
               <ul className='ulMenu'>
-                <h3>Lash Services</h3>
+                <h1 className='h1Class'>Lash Services</h1>
                 {lash}
               </ul>
 
               <ul className='ulMenu'>
-                <h3>Other Services</h3>
+                <h1 className='h1Class'>Other Services</h1>
                 {other}
               </ul>
 

@@ -92,27 +92,27 @@
   [
     {
       "title": "Brow Wax",
-      "price": "From 25",
+      "price": "From $25",
       "id": "1"
     },
     {
       "title": "Brow Wax + Tint",
-      "price": "From 35",
+      "price": "From $35",
       "id": "2"
     },
     {
       "title": "Brow Henna",
-      "price": "From 45",
+      "price": "From $45",
       "id": "3"
     },
     {
       "title": "Tattoo's Freckles",
-      "price": "From 65",
+      "price": "From $65",
       "id": "4"
     },
     {
       "title": "Tattoo's Beauty Mark",
-      "price": "From 40",
+      "price": "From $40",
       "id": "5"
     }
   ]
