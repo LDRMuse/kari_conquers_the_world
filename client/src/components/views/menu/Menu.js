@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from 'react'
+import React, { Fragment } from 'react'
 import './menu.scss';
 import services from '../../../assets/list-of-services.json'
 
