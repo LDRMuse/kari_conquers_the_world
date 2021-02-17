@@ -6,6 +6,8 @@ import kari from "../../images/kari1.jpg";
 import monroeLogo from "../../images/monroeLogo.jpg";
 
 export const Home = () => {
+
+
   return (
     <>
       <div className="mainBody">
@@ -17,8 +19,16 @@ export const Home = () => {
           </div>
 
           <div className="col-6 col-s-9">
-            <h1>Meet Kari</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h1 className='h1Class'>Meet Kari</h1>
+            <section>
+              <p className='p'>Licensed Cosmetologist <span role="img" aria-label="sheep">💋 </span></p>
+              <p className='p'>Licensed Cosmetic Tattoo Artist <span role="img" aria-label="sheep">🖋 </span></p>
+              <p className='p'>CPR Certified <span role="img" aria-label="sheep">🚑 </span></p>
+              <p className='p'>BBP Certified <span role="img" aria-label="sheep">🩸 </span></p>
+              <p className='p'>Experienced <span role="img" aria-label="sheep">💁🏻‍♀️< /span></p>
+              <p className='p'>Fully Insured <span role="img" aria-label="sheep">🙌 </span></p>
+              <p className='p'>15+ Yrs in the Beauty Industry <span role="img" aria-label="sheep">💅🏼 </span></p>
+            </section>
           </div>
 
           <div className="col-3 col-s-12">
