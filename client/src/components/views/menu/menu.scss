@@ -54,8 +54,6 @@ $white: whitesmoke;
 /* List */
 .ulMenu {
   counter-reset: index;
-  // max-width: 300px;
-  // padding: 0;
 }
 
 /* List element */
@@ -64,9 +62,16 @@ li {
   box-sizing: border-box;
   counter-increment: index;
   display: flex;
+  font-size: 15px;
   justify-content: space-between;
   padding: 12px 0;
   padding-right: 90px;
+}
+
+.h1Class {
+  font-family: 'Lobster Two', cursive;
+  font-size: 30px;
+  padding: 10px;
 }
 
 
@@ -91,11 +96,6 @@ li::before {
 li + li {
   border-top: 1px solid rgba(255,255,255,0.2);
 }
-
-
-// .ulMenu {
-//   list-style-type: none;
-// }
 
 
 #service-menu {
