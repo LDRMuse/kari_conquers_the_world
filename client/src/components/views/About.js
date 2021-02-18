@@ -1,10 +1,8 @@
 import React from "react";
-import { PhotoGrid } from "./photos/PhotoGrid";
-import { Menu } from "./menu/Menu";
 import { SocialMedia } from "./SocialMedia"
 
 import kari from "../../images/army1.jpg";
-import monroeLogo from "../../images/monroeLogo.jpg";
+
 
 export const About = () => {
   return (
@@ -37,14 +35,10 @@ export const About = () => {
       </div>
 
       <SocialMedia />
+      <div className="menu-header"></div>
 
-      <div className="service-menu">
-        <Menu />
-      </div>
 
-      {/* <div className="gallery">
-        <PhotoGrid />
-      </div> */}
+
     </>
   );
 };

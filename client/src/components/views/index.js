@@ -1,3 +1,5 @@
 export {Header} from './Header'
 export {About} from './About'
 export {Footer} from './Footer'
+export {Menu} from './menu/Menu'
+export {Navbar} from './Navbar'
