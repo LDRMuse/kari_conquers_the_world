@@ -1,6 +1,7 @@
 import React from "react";
 import { PhotoGrid } from "./photos/PhotoGrid";
 import { Menu } from "./menu/Menu";
+import { SocialMedia } from "./SocialMedia"
 
 import kari from "../../images/army1.jpg";
 import monroeLogo from "../../images/monroeLogo.jpg";
@@ -9,7 +10,7 @@ export const About = () => {
   return (
     <>
       <div className="mainBody">
-        <div className="col-3 col-s-3 menu">
+        <div id="kari-image" className="col-3 col-s-3 menu">
           <ul>
             <img className="kariImage" src={kari} alt="logo" />
           </ul>
@@ -35,13 +36,15 @@ export const About = () => {
         </div>
       </div>
 
+      <SocialMedia />
+
       <div className="service-menu">
         <Menu />
       </div>
 
-      <div className="gallery">
+      {/* <div className="gallery">
         <PhotoGrid />
-      </div>
+      </div> */}
     </>
   );
 };

@@ -130,8 +130,18 @@ html {
   margin-top: 40px;
 }
 
-.socialMedia {
+#kari-image {
+  width: 500px;
+}
+
+.social-media {
+  background-color: $pink;
+}
+
+.social-media-icons {
   font-size: 40px;
+  margin-bottom: 0;
+  padding-bottom: 35px;
   text-align: center;
 }
 
@@ -147,12 +157,10 @@ html {
   text-align: center;
 }
 
-.aside {
+.follow-her-h1 {
   background-color: $pink;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 8px 7px 10px rgba(0, 0, 0, 0.24);
-  color: $black;
-  font-size: 14px;
-  padding: 15px;
+  font-size: 40px;
+  padding: 25px;
   text-align: center;
 }
 
