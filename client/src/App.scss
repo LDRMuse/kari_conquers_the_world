@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
 
 // http://www.brandgradients.com/gold-gradient/
-$gold1: #BF953F;
-$gold2: #B38728;
-$gold3: #AA771C;
-$light1: #FCF6BA;
-$light2: #FBF5B7;
-$pink: #FFBA9B;
+$gold1: #bf953f;
+$gold2: #b38728;
+$gold3: #aa771c;
+$light1: #fcf6ba;
+$light2: #fbf5b7;
+$pink: #ffba9b;
 $black: #000;
 $white: whitesmoke;
 
@@ -51,7 +51,6 @@ nav {
   padding: 15px;
 }
 
-
 body {
   color: $gold1;
   display: flex;
@@ -94,20 +93,18 @@ html {
   background: transparent;
   color: $black;
   margin-right: 10px;
-
 }
 
 .fa-facebook-f {
   background: transparent;
   color: $black;
   margin-right: 10px;
-
 }
 
 .header {
-  background: url("./images/karihighres.jpg") fixed;
-  background-size: cover;
-  font-family: 'Lobster Two', cursive;
+  background: url("./images/karihighres.jpg") no-repeat fixed;
+  background-size: 100%;
+  font-family: "Lobster Two", cursive;
   font-size: 30px;
   padding-bottom: 350px;
   padding-top: 50px;
@@ -116,12 +113,20 @@ html {
 }
 
 .headerNav {
-  background: linear-gradient(to right, $gold1, $light1, $gold2, $light2, $gold3);
+  background: linear-gradient(
+    to right,
+    $gold1,
+    $light1,
+    $gold2,
+    $light2,
+    $gold3
+  );
 }
 
 .kariImage {
-  border: solid black;
   border-radius: 200px;
+  border: solid black;
+  margin-bottom: 40px;
   margin-top: 40px;
 }
 
@@ -131,75 +136,139 @@ html {
 }
 
 .mainBody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   margin-top: 20px;
-
 }
+
+.kari-about-paragraph {
+  font-size: 15px;
+  text-align: center;
+}
+
 .aside {
   background-color: $pink;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 8px 7px 10px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 8px 7px 10px rgba(0, 0, 0, 0.24);
   color: $black;
   font-size: 14px;
   padding: 15px;
   text-align: center;
 }
-.p {
-font-size: 15px;
-text-align: center;
-}
 
 .homeH1 {
-  font-family: 'Lobster Two', cursive;
+  font-family: "Lobster Two", cursive;
   font-size: 40px;
   text-align: center;
 }
 
 .asideFont {
-  font-family: 'Lobster Two', cursive;
+  font-family: "Lobster Two", cursive;
 }
 
 .footer {
-  background: linear-gradient(to right, $gold1, $light1, $gold2, $light2, $gold3);
+  background: linear-gradient(
+    to right,
+    $gold1,
+    $light1,
+    $gold2,
+    $light2,
+    $gold3
+  );
   color: $light2;
   font-size: 12px;
   padding: 15px;
   text-align: center;
 }
 
-@media only screen and (min-width: 320px) {
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-}
+@media only screen and (min-width: 1024px) {
+  .col-3 {
+    width: 40%;
+  }
 }
 
+@media only screen and(min-width: 320px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
 
 @media only screen and (min-width: 600px) {
   /* For tablets: */
-  .col-s-1 {width: 8.33%;}
-  .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-s-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-s-12 {width: 100%;}
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
 }
