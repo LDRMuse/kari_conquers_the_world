@@ -57,7 +57,7 @@ $white: whitesmoke;
 }
 
 /* List element */
-li {
+.liMenu {
   align-items: center;
   box-sizing: border-box;
   counter-increment: index;
@@ -76,7 +76,7 @@ li {
 
 
 /* Element counter */
-li::before {
+.liMenu::before {
   -webkit-background-clip: text;
   align-self: flex-start;
   background-attachment: fixed;
@@ -93,7 +93,7 @@ li::before {
 
 
 /* Element separation */
-li + li {
+.liMenu + .liMenu {
   border-top: 1px solid rgba(255,255,255,0.2);
 }
 

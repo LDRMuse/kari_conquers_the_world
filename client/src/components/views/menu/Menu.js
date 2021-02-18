@@ -9,7 +9,7 @@ export const Menu = () => {
     const price = s.price
     const id = s.id
 
-    return <li key={id}>{title} - {price}</li>
+    return <li className="liMenu" key={id}>{title} - {price}</li>
   })
 
   const permanent = services[1].map((s) => {
@@ -17,7 +17,7 @@ export const Menu = () => {
     const price = s.price
     const id = s.id
 
-    return <li key={id}>{title} - {price}</li>
+    return <li className="liMenu" key={id}>{title} - {price}</li>
   })
 
   const lash = services[2].map((s) => {
@@ -25,7 +25,7 @@ export const Menu = () => {
     const price = s.price
     const id = s.id
 
-    return <li key={id}>{title} - {price}</li>
+    return <li className="liMenu" key={id}>{title} - {price}</li>
   })
 
   const other = services[3].map((s) => {
@@ -33,7 +33,7 @@ export const Menu = () => {
     const price = s.price
     const id = s.id
 
-    return <li key={id}>{title} - {price}</li>
+    return <li className="liMenu" key={id}>{title} - {price}</li>
   })
 
 
