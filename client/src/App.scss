@@ -15,7 +15,7 @@ $white: whitesmoke;
 }
 
 nav {
-  background-color: $pink;
+  background-color: transparent;
   display: flex;
   height: 50px;
   justify-content: flex-end;
@@ -105,11 +105,12 @@ html {
 }
 
 .header {
-  background: url("./images/transparentEye.jpg")  fixed;
+  background: url("./images/karihighres.jpg") fixed;
+  background-size: cover;
   font-family: 'Lobster Two', cursive;
   font-size: 30px;
-  padding: 15px;
-  padding-bottom: 200px;
+  padding-bottom: 350px;
+  padding-top: 50px;
   text-align: center;
   text-shadow: 2px 2px 4px $white;
 }

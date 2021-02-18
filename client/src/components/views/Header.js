@@ -10,7 +10,6 @@ export const Header = () => {
           <h1 className="h1Header">
             <em>Monroe Permanent Cosmetics</em>
           </h1>
-          <h4>By Kari Lynne</h4>
         </header>
       </div>
     </>
