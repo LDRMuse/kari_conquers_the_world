@@ -40,8 +40,7 @@ export const Menu = () => {
 
   return (
     <Fragment>
-      <div className="menu-header">
-
+            <div className="menu-header"></div>
         <div className='body' id='service-menu'>
           <h1 className='service-menu-header'>Services</h1>
           <div id="menuBoxx" className="menuBox">
@@ -71,7 +70,6 @@ export const Menu = () => {
             </div>
           </div>
         </div>
-      </div>
     </Fragment>
   )
 }
