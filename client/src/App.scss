@@ -166,7 +166,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 20px;
+  margin-top: 70px;
 }
 
 .kari-about-paragraph {
@@ -175,6 +175,7 @@ img {
 }
 
 .follow-her-h1 {
+  color: $white;
   background-color: $pink;
   font-size: 40px;
   margin-top: 70px;
