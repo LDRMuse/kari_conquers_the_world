@@ -15,12 +15,10 @@ $white: whitesmoke;
 }
 
 nav {
-  background-color: transparent;
   display: flex;
   height: 50px;
   justify-content: flex-end;
   padding-right: 35px;
-  position: absolute;
   width: 100%;
 }
 
@@ -62,6 +60,7 @@ body {
   line-height: 24px;
   overflow-x: hidden;
 }
+
 
 .h1Header {
   margin-top: 250px;
