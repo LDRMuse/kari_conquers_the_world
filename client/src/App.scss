@@ -61,7 +61,6 @@ body {
   overflow-x: hidden;
 }
 
-
 .h1Header {
   margin-top: 250px;
   text-shadow: 2px 2px 4px $black;
@@ -108,7 +107,11 @@ html {
   padding-bottom: 350px;
   padding-top: 50px;
   text-align: center;
-  text-shadow: 2px 2px 4px $white;
+  text-shadow: 5px 2px 4px $white;
+}
+
+.em {
+  text-shadow: 5px 5px 5px $black;
 }
 
 .headerNav {
@@ -138,7 +141,13 @@ img {
 }
 
 #kari-bio {
-  margin-top: 80px;
+  background: $pink;
+  border: 1px solid;
+  box-shadow: 5px 10px;
+  color: $black;
+  margin-bottom: auto;
+  margin-top: auto;
+  padding: 10px;
 }
 
 .social-media {
@@ -167,6 +176,7 @@ img {
 .follow-her-h1 {
   background-color: $pink;
   font-size: 40px;
+  margin-top: 70px;
   padding: 25px;
   text-align: center;
 }
@@ -182,14 +192,7 @@ img {
 }
 
 .footer {
-  background: linear-gradient(
-    to right,
-    $gold1,
-    $light1,
-    $gold2,
-    $light2,
-    $gold3
-  );
+  background: $gold1;
   color: $light2;
   font-size: 12px;
   padding: 15px;
