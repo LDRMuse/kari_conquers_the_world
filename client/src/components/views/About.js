@@ -1,7 +1,7 @@
 import React from "react";
 import { SocialMedia } from "./SocialMedia"
 
-import kari from "../../images/army1.jpg";
+import kari from "../../images/karihighres.jpg";
 
 
 export const About = () => {
