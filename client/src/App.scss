@@ -27,7 +27,7 @@ nav {
 .nav-bar {
   display: flex;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 20px;
   justify-content: space-between;
   list-style-type: none;
   text-transform: uppercase;
@@ -136,6 +136,10 @@ img {
 
 #kari-image {
   width: 500px;
+}
+
+#kari-bio {
+  margin-top: 80px;
 }
 
 .social-media {

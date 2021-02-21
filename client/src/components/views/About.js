@@ -7,14 +7,14 @@ import kari from "../../images/army1.jpg";
 export const About = () => {
   return (
     <>
-      <div className="mainBody">
+      <div id="about" className="mainBody">
         <div id="kari-image" className="col-3 col-s-3 menu">
           <ul>
             <img className="kariImage" src={kari} alt="logo" />
           </ul>
         </div>
 
-        <div className="col-3 col-s-12">
+        <div id="kari-bio" className="col-3 col-s-12">
           <h1 className="homeH1">About Kari</h1>
           <section className="kari-about-paragraph">
             <p>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 export const Navbar = () => {
 
@@ -8,13 +8,13 @@ export const Navbar = () => {
       <nav className="navbar-transparent">
         <ul className="nav-bar">
           <li className="li-nav">
-            <Link to="/">Home</Link>
+          <Link to="#">Home</Link>
           </li>
           <li className="li-nav">
-          <Link to="/about">About</Link>
+          <Link to="about" smooth={true} duration={1000}>About</Link>
           </li>
           <li className="li-nav">
-          <Link to="/services">Services and Pricing</Link>
+          <Link to="services" smooth={true} duration={1000}>Services</Link>
           </li>
         </ul>
       </nav>
